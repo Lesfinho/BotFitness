@@ -1,0 +1,31 @@
+# Arquivos de Ambiente
+.env
+.env.*
+!.env.example
+
+# Dependências
+node_modules/
+
+# Arquivos de sessão do whatsapp-web.js
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Arquivos de sessão do bot (se aplicável)
+session/
+
+# Dados e Logs
+data/
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Backups
+backup/
+
+# Cache e arquivos de sistema
+.npm/
+.eslintcache
+.DS_Store
+Thumbs.db
